@@ -6,7 +6,39 @@ body {
   padding: 0;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(36, 187, 140, 0.02);
 }
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  width: 573px;
+  height: 246px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 82px;
+}
+
+br {
+  color: blueviolet;
+  background-color: #fff;
+}
+
 
 /* color 1 - #7F56D9 */
 /* color 2 - #F9F5FF */
