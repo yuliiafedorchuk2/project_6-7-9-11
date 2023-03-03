@@ -1,0 +1,111 @@
+.container {
+    margin: 0 auto;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .middle_block {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 20px;
+    width: 573px;
+    flex: none;
+  }
+  
+  h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 82px;
+    letter-spacing: -0.5px;
+    color: #101828;
+    flex: none;
+  }
+  
+  h2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #646464;
+    flex: none;
+  }
+  
+  h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    flex: none;
+  }
+  
+  h5 {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .Get-Started, .Get-free-trial{
+    display: inline-block;
+  }
+
+  .Get-free-trial {
+    margin: 28px;
+  }
+  
+  .Get-Started h5 {
+    width: 109px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 28px;
+    gap: 8px;
+    width: 157px;
+    height: 60px;
+    background: #7f56d9;
+    border: 1px solid #7f56d9;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #f4ebff;
+    border-radius: 8px;
+  }
+  
+  .Get-free-trial h5 {
+    width: 109px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6941c6;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 28px;
+    gap: 8px;
+    width: 165px;
+    height: 60px;
+    background: #f4ebff;
+    border: 1px solid #f4ebff;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+  }
