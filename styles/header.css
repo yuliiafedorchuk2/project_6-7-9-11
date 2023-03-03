@@ -91,6 +91,14 @@ header a {
   line-height: 24px;
 }
 
+.Get-Started {
+  display: inline-block;
+}
+
+.Get-free-trial {
+  display: inline-block;
+}
+
 .Get-Started h5 {
   width: 109px;
   height: 28px;
