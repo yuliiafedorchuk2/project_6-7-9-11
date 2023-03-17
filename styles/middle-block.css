@@ -198,7 +198,6 @@
   width: 142px;
   height: 40px;
   flex: none;
-  order: 1;
   flex-grow: 0;
   z-index: 1;
 }
@@ -223,3 +222,10 @@
   font-size: 26px;
   color: #7F56D9;
 }
+
+.card-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+} 

@@ -91,3 +91,10 @@ header a {
   font-size: 16px;
   line-height: 24px;
 }
+
+header {
+  position: sticky;
+  background-color: #fff;
+  z-index: 999;
+  top: 0;
+}
