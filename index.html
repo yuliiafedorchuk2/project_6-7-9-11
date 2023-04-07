@@ -5,10 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-    crossorigin="anonymous"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/header.css" />
@@ -33,32 +29,31 @@
         </nav>
       </header>
       <div class="middle_block">
-        <h1 class="1">
-          Up Your <b>Skills</b> <br />
-          To <b>Advance</b> Your <br />
-          <b>Career</b> Path
-        </h1>
-        <h2 class="2">
-          <br />Provides you with the latest online learning system and material
-          <br />
-          that help your knowledge growing.
-        </h2>
+        <div class="banner"> 
+          <h1 class="1">
+            Up Your <b>Skills</b> <br />
+            To <b>Advance</b> Your <br />
+            <b>Career</b> Path
+          </h1>
+          <h2 class="2">
+            <br />Provides you with the latest online learning system and material
+            <br />
+            that help your knowledge growing.
+          </h2>
+        </div>
         <div class="banner-img">
-            <img class="student-woman-img"
-              src="/assets/student-woman.png" alt="student-woman-img"
-            />
-            <img class="video-courses-img"
-              src="/assets/video-courses.png" alt="video-courses-img"
-            />
-            <img class="online-courses-img"
-              src="/assets/online-courses.png" alt="online-courses-img"
-            />
-            <img class="tutors-img"
-              src="/assets/tutors.png" alt="tutors-img"
-            />
+          <div class="student-woman-img">
+            <img class="student-woman-img" src="/assets/student-woman.png" alt="student-woman-img"/>
           </div>
+          <img class="video-courses-img"
+            src="/assets/video-courses.png" alt="video-courses-img"/>
+          <img class="online-courses-img"
+            src="/assets/online-courses.png" alt="online-courses-img"/>
+          <img class="tutors-img"
+            src="/assets/tutors.png" alt="tutors-img"/>
         </div>
       </div>
+   
         <span>
           <div class="Get-Started">
             <h5>Get Started</h5>
@@ -67,7 +62,6 @@
             <h5>Get free trial</h5>
           </div>
         </span>
-      </div>
       <div class="collaborators">
         <div class="info">
           <h4><b>250+</b></h4>
@@ -81,28 +75,95 @@
           <img src="/assets/magic-leap.svg" alt="" />
         </div>
       </div>
-      <section>
+      <section class="our_services">
         <div class="section-info">
           <div class="category">Our Services</div>
           <h3 class="title">
             Fostering a playful & engaging learning environment
           </h3>
         </div>
-        <div class="articles">
-          <div class="article-card">
-            <span class="title">User Experience</span>
-            <span class="info1"> <br> Lessons on design that cover the <br> most recent developments.</span>
-            <a class="href1" href="href1"> <br> Learn More → </a>
+         <div id="carousel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="articles row">
+                  <div class="col-md-4">
+                    <div class="article-card">
+                      <span class="title">User Experience</span>
+                      <span class="info1"> <br> Lessons on design that cover the <br> most recent developments.</span>
+                      <a class="href1" href="href1"> <br> Learn More → </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="article-card">
+                      <span class="title">Web Development</span>
+                      <span class="info2"> <br> Classes in development that cover the <br> most recent advancements in web.</span>
+                      <a class="href2" href="href2"> <br> Learn More → </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="article-card">
+                      <span class="title">Marketing</span>
+                      <span class="info3"> <br> Marketing courses that cover the most <br> recent marketing trends</span>
+                      <a class="href3" href="href3"> <br> Learn More → </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="articles row">
+                  <div class="col-md-4">
+                    <div class="article-card">
+                      <span class="title">User Experience</span>
+                      <span class="info1"> <br> Lessons on design that cover the <br> most recent developments.</span>
+                      <a class="href1" href="href1"> <br> Learn More → </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="article-card">
+                      <span class="title">Web Development</span>
+                      <span class="info2"> <br> Classes in development that cover the <br> most recent advancements in web.</span>
+                      <a class="href2" href="href2"> <br> Learn More → </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="article-card">
+                      <span class="title">Marketing</span>
+                      <span class="info3"> <br> Marketing courses that cover the most <br> recent marketing trends</span>
+                      <a class="href3" href="href3"> <br> Learn More → </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="articles row">
+                <div class="col-md-4">
+                  <div class="article-card">
+                    <span class="title">User Experience</span>
+                    <span class="info1"> <br> Lessons on design that cover the <br> most recent developments.</span>
+                    <a class="href1" href="href1"> <br> Learn More → </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="article-card">
+                    <span class="title">Web Development</span>
+                    <span class="info2"> <br> Classes in development that cover the <br> most recent advancements in web.</span>
+                    <a class="href2" href="href2"> <br> Learn More → </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="article-card">
+                    <span class="title">Marketing</span>
+                    <span class="info3"> <br> Marketing courses that cover the most <br> recent marketing trends</span>
+                    <a class="href3" href="href3"> <br> Learn More → </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="article-card">
-            <span class="title">Web Development</span>
-            <span class="info2"> <br> Classes in development that cover the <br> most recent advancements in web.</span>
-            <a class="href2" href="href2"> <br> Learn More → </a>
-          </div>
-          <div class="article-card">
-            <span class="title">Marketing</span>
-            <span class="info3"> <br> Marketing courses that cover the most <br> recent marketing trends</span>
-            <a class="href3" href="href3"> <br> Learn More → </a>
+          <div class="carousel-indicators">
+           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
         </div>
       </section>
@@ -166,14 +227,17 @@
         </div>
       </div>
     </section>
-    </div>
-    
+
     <div class="rectangle">
     </div>
     <div class="circle-left">
     </div>
     <div class="circle-right">
     </div>
-    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+  crossorigin="anonymous"></script>
   </body>
 </html>
