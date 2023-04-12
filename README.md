@@ -1,1 +1,0 @@
-<!-- first figma project "eLearning Landing Page (Community)" -->

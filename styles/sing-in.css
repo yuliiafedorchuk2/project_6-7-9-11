@@ -1,0 +1,44 @@
+body {
+
+    background-color: #F4EBFF;
+}
+
+.signin-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+  
+.signin-form h2 {
+    text-align: center;
+}
+  
+.signin-form form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.signin-form label {
+    margin-bottom: 5px;
+}
+  
+.signin-form input[type="text"],
+.signin-form input[type="email"],
+.signin-form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+}
+  
+.signin-form input[type="submit"] {
+    padding: 10px;
+    background-color: #6941C6;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+  
